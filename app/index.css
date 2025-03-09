@@ -1,0 +1,122 @@
+
+body{
+  background-color:white;
+    justify-content: center; 
+    align-items: center; 
+}
+
+#task-list {
+  overflow: auto;
+  height: 20rem;
+  padding: 5rem;
+  border: 5rem;
+  justify-content: center;
+}
+
+#main-form{
+  justify-content: column;
+  text-align: center;
+  padding: 30px;
+  
+}
+
+#div2{
+  border: 1px solid;
+}
+
+#main-desc-task{
+  justify-content: center;
+  flex-direction: row;
+}
+
+h1{
+  margin: 20px; 
+}
+
+
+#main-title{
+  font-size: 6rem;
+  background-color: rgb(47, 47, 187);
+  margin: auto;
+  padding: auto;
+
+
+}
+
+#main-desc-task{
+  
+}
+
+#main-desc-task {
+  text-align: center;
+}
+
+#task-input{
+  justify-content:center;
+}
+
+#texto{
+  text-align: center;
+}
+
+#main-form-button{
+  cursor:pointer
+}
+#main-form-button:hover{
+  transition:all ease-in-out ;
+  color: yellow;
+}
+
+.task-item{
+  margin: 2px;
+  border: 5px;
+
+}
+
+#task-list{
+  background-color:rgb(47, 47, 187);
+  padding: 2rem;
+  margin: 2rem;
+}
+
+.task-item-text{
+  border: 1px solid;
+  margin: 15px;
+  background-color: white;
+  color: black;
+  
+}
+
+#task-input{
+  width: 10rem;
+  background-color: white;
+  color:blue;
+  
+}
+
+.task-item{
+  box-sizing: border-box;
+  border-width: 2px;
+  border-color: black;
+  flex-direction: row;
+  justify-content: center;
+  display: flex;
+}
+
+#texto{
+  color: black;
+}
+
+.task-item-delete-button{
+  height: 3rem;
+  width: 3rem;
+}
+
+.task-item-check-button{
+  height: 3rem;
+  width: 3rem;
+}
+
+
+
+
