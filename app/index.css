@@ -104,13 +104,14 @@ h1{
 }
 
 .task-item-delete-button{
-  height: 3rem;
-  width: 3rem;
+  height: auto;
+  width: 3.5rem;
+
 }
 
 .task-item-check-button{
-  height: 3rem;
-  width: 3rem;
+  height: auto;
+  width: 3.5rem;
 }
 
 
