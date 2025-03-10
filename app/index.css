@@ -107,12 +107,14 @@ h1{
 .task-item-delete-button{
   height: auto;
   width: 3.5rem;
+  justify-content: center;
 
 }
 
 .task-item-check-button{
   height: auto;
   width: 3.5rem;
+  justify-content: center;
 }
 
 
