@@ -3,6 +3,7 @@ body{
   background-color:white;
     justify-content: center; 
     align-items: center; 
+    overflow: hidden;
 }
 
 #task-list {
@@ -126,8 +127,11 @@ h1{
 }
 
 
-#task-list-counter{
-  padding: 5px;
+#task-list-counters{
+  padding: 5px;;
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
 }
 
 #task-list-counter-num{
@@ -160,7 +164,8 @@ h1{
   z-index: 1;
   width: 100%;
   flex-wrap: nowrap;
-  justify-content: center;
-  
+  justify-content: space-evenly;
+  border: 2px solid;
+  border-color: blue;
 
 }
